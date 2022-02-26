@@ -24,7 +24,7 @@ def lookup_usernameage(conn, c):
     else:
         print("Unable to find {}".format(usernameage))
 def add_update_usernameage(conn, c):
-    usernameage = input("Please enter the usernameage you would like to add/update: ")
+    usernameage = input("Please enter the usernameage you would like to lookup: ")
     age = input("What is the age? ")
     age = int(age.strip() or '0')
     found = get_usernameage(conn, c, usernameage)
