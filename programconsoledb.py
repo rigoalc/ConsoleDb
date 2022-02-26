@@ -16,7 +16,7 @@ def get_usernameage(conn, c, usernameage):
     row = c.fetchone()
     return row
 def lookup_usernameage(conn, c):
-    usernameage = input("Please enter the usernameage you would like to lookup: ")
+    usernameage = input("Please enter the the new user name: ")
     found = get_usernameage(conn, c, usernameage)
     if found:
         name, age = found
