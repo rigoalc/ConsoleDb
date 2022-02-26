@@ -1,5 +1,8 @@
 import sqlite3
 
+def add(x, y):
+    return x + y
+
 def create_tables(conn, c):
     c.execute("CREATE TABLE IF NOT EXISTS usernameage (name text, age integer)")
     c.execute("INSERT INTO usernameage VALUES ('MrBurns', 81), ('Apu', 41)")
