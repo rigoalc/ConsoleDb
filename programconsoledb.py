@@ -14,7 +14,7 @@ Test:
 To test i created a test file and a function in the code file for asserting a simple calculation using a virtual environment running pytest from the terminal. 
 How to use the program:
 On the terminal: Follow the prompts to Look, Search, Create, edit or delete usernames and age of the username in a database.
-The development time for this assignment is 6hrs and 9hs. 
+The development time for this assignment is 6hrs. 
 '''
 
 '''
